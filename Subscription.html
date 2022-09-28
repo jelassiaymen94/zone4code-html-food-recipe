@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<form>
+			<table align="center" width="50%">
+				<tr>
+					<th colspan="3">Registration Form</th>
+				</tr>
+				<tr>
+					<td><label for="student">Student Name</label></td>
+					<td>
+						<select name="student" id="gender">
+							<option value="Mr.">Mr.</option>
+							<option value="Ms.">Ms.</option>
+						</select>
+						<input id="student" type="text" placeholder="Enter Your Name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="password">Password</label></td>
+					<td>
+						<input
+							id="password"
+							type="password"
+							placeholder="Enter your password" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="father">Father's Name</label></td>
+					<td>
+						<input
+							id="father"
+							type="text"
+							placeholder="Enter your father's Name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="mother">Mother's Name</label></td>
+					<td>
+						<input
+							id="mother"
+							type="text"
+							placeholder="Enter your Mother's Name" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="date">Date of Birth</label></td>
+					<td><input type="date" name="date" id="date" /></td>
+				</tr>
+				<tr>
+					<td><label>Gender</label></td>
+					<td>
+						<label for="male">Male</label>
+						<input id="male" type="radio" name="gender" />
+						<label for="female">Female</label>
+						<input id="female" name="gender" type="radio" />
+					</td>
+				</tr>
+				<tr>
+					<td><label for="email">Email ID</label></td>
+					<td><input id="email" type="email" /></td>
+				</tr>
+				<tr>
+					<td><label for="mobile">Mobile No.</label></td>
+					<td><input id="mobile" type="text" maxlength="10" /></td>
+				</tr>
+				<tr>
+					<td><label>Address</label></td>
+					<td><textarea rows="4"></textarea></td>
+				</tr>
+				<tr>
+					<td><label>State</label></td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td><label>City</label></td>
+					<td><input type="text" /></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<input type="button" value="Submit" />
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>
